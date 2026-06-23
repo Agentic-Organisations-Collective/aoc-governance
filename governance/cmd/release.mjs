@@ -241,7 +241,7 @@ execFileSync('git', ['commit', '-m', message], {
   env: { ...process.env, GOVERNANCE_RELEASE: '1' },
 });
 for (const c of changed) {
-  git(['tag', `${c.dir}-v${c.version}`]);
+  git(['tag', '-a', `${c.dir}-v${c.version}`, '-m', `${c.name}@${c.version}`]);
 }
 
 console.log('\nReleased:');
