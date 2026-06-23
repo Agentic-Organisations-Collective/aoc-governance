@@ -6,10 +6,16 @@
   "packageManager": "pnpm@10.26.0",
   "scripts": {
     "lc:init": "leafcutter-os-init",
-    "lc:sync": "leafcutter-os-sync"
+    "lc:sync": "leafcutter-os-sync",
+    "changeset": "changeset",
+    "release": "node governance/cmd/release.mjs",
+    "check:changeset": "node governance/cmd/check-changeset.mjs",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.12",
     "@schafe-vorm-fenster/cli": "^0.4.1",
-    "@schafe-vorm-fenster/config": "^0.3.2"
+    "@schafe-vorm-fenster/config": "^0.3.2",
+    "husky": "^9.1.7"
   }
 }

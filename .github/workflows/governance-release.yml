@@ -1,0 +1,38 @@
+name: Governance Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/**'
+      - '.changeset/**'
+
+permissions:
+  contents: write
+
+concurrency: governance-release
+
+jobs:
+  release:
+    # Skip the release commit produced by this workflow to avoid loops.
+    if: ${{ !startsWith(github.event.head_commit.message, 'chore(release)') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Release (version, changelog, archive, ledger, tag)
+        run: node governance/cmd/release.mjs
+      - name: Push commit and tags
+        run: git push --follow-tags origin main
