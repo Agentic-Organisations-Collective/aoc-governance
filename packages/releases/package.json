@@ -1,0 +1,6 @@
+{
+  "name": "@aoc-governance/releases",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Frozen, tagged publication snapshots of governance documents."
+}

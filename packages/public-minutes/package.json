@@ -1,0 +1,6 @@
+{
+  "name": "@aoc-governance/public-minutes",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Minutes intended for public visibility."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@aoc-governance/resolutions",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Official decisions adopted by the collective, stored append-only."
+}

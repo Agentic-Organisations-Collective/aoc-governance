@@ -1,0 +1,1338 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@schafe-vorm-fenster/cli':
+        specifier: ^0.4.1
+        version: 0.4.1
+      '@schafe-vorm-fenster/config':
+        specifier: ^0.3.2
+        version: 0.3.2(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+
+  packages/bylaws: {}
+
+  packages/public-minutes: {}
+
+  packages/releases: {}
+
+  packages/resolutions: {}
+
+  packages/statutes: {}
+
+packages:
+
+  '@github/keytar@7.10.6':
+    resolution: {integrity: sha512-mRW6cUsSG+nj4jp5gp8e91zPySaT73r+2JM6VyMZfrEgksjPmjSMr+tPGNOK3HUHV+GUU9B1LAiiYy/wmAnIxA==}
+
+  '@google/gemini-cli@0.47.0':
+    resolution: {integrity: sha512-cg0Y3X2bwJD7lyjD6lodyR6VeNXDmzqC7JqjZKf6cYVIImIwdPX5ARgOewOnkEufb3MwZe9SRl4G49IfdEvCuQ==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  '@lydell/node-pty-darwin-arm64@1.1.0':
+    resolution: {integrity: sha512-7kFD+owAA61qmhJCtoMbqj3Uvff3YHDiU+4on5F2vQdcMI3MuwGi7dM6MkFG/yuzpw8LF2xULpL71tOPUfxs0w==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@lydell/node-pty-darwin-x64@1.1.0':
+    resolution: {integrity: sha512-XZdvqj5FjAMjH8bdp0YfaZjur5DrCIDD1VYiE9EkkYVMDQqRUPHYV3U8BVEQVT9hYfjmpr7dNaELF2KyISWSNA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@lydell/node-pty-linux-arm64@1.1.0':
+    resolution: {integrity: sha512-yyDBmalCfHpLiQMT2zyLcqL2Fay4Xy7rIs8GH4dqKLnEviMvPGOK7LADVkKAsbsyXBSISL3Lt1m1MtxhPH6ckg==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@lydell/node-pty-linux-x64@1.1.0':
+    resolution: {integrity: sha512-NcNqRTD14QT+vXcEuqSSvmWY+0+WUBn2uRE8EN0zKtDpIEr9d+YiFj16Uqds6QfcLCHfZmC+Ls7YzwTaqDnanA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@lydell/node-pty-win32-arm64@1.1.0':
+    resolution: {integrity: sha512-JOMbCou+0fA7d/m97faIIfIU0jOv8sn2OR7tI45u3AmldKoKoLP8zHY6SAvDDnI3fccO1R2HeR1doVjpS7HM0w==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@lydell/node-pty-win32-x64@1.1.0':
+    resolution: {integrity: sha512-3N56BZ+WDFnUMYRtsrr7Ky2mhWGl9xXcyqR6cexfuCqcz9RNWL+KoXRv/nZylY5dYaXkft4JaR1uVu+roiZDAw==}
+    cpu: [x64]
+    os: [win32]
+
+  '@lydell/node-pty@1.1.0':
+    resolution: {integrity: sha512-VDD8LtlMTOrPKWMXUAcB9+LTktzuunqrMwkYR1DMRBkS6LQrCt+0/Ws1o2rMml/n3guePpS7cxhHF7Nm5K4iMw==}
+
+  '@nodelib/fs.scandir@2.1.5':
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
+    engines: {node: '>= 8'}
+
+  '@nodelib/fs.stat@2.0.5':
+    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==}
+    engines: {node: '>= 8'}
+
+  '@nodelib/fs.walk@1.2.8':
+    resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
+    engines: {node: '>= 8'}
+
+  '@schafe-vorm-fenster/adapter-ffmpeg-cli@0.1.1':
+    resolution: {integrity: sha512-0pYGgql4IxG/p7eZsrUwZQ/UL+QDq6q8hf1C3rLXvwTZghRA+RGSXORB6koEKFz+nMFX07oAfGUuDI1LlxUXuA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-ffmpeg-cli/0.1.1/14fe9e2cdde71f6398710a6f20d929936b39f599}
+    hasBin: true
+    peerDependencies:
+      ffmpeg: '*'
+
+  '@schafe-vorm-fenster/adapter-gemini-cli@0.2.1':
+    resolution: {integrity: sha512-4zNRJDzDgitiCKDuepXDRVbvqD096cQJ07tOndjl+qTsXOmaldmgdY3AAi/uJAtCyBy4Ql6k/IZiRuawki/9cA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-gemini-cli/0.2.1/413796a0633697743287420ca2e983a686890c59}
+    peerDependencies:
+      '@google/gemini-cli': '>=0.42.0'
+
+  '@schafe-vorm-fenster/adapter-github-cli@0.2.1':
+    resolution: {integrity: sha512-wZIPySz5474rVlupLvtndFGvr4r68OgWnOvdGdxMhJTPqwv+YrvYyreTw/Q2PVkvaugHbpFKS0JFpjscLQcqrA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-github-cli/0.2.1/04da546e78af4cf1a1194b15d76c52b67d3c07d0}
+
+  '@schafe-vorm-fenster/adapter-google-cli-docs@0.2.1':
+    resolution: {integrity: sha512-y0RavorlDXJrvepGidtqgzPndDJdFpkEFtXRqBa9oD4/yQFixrAGjNnDqwTJ18QP7R6UGA2drTne/F3Eo+h5Kg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-google-cli-docs/0.2.1/77148eb1b69c3ca56263e9e007c895cb6b6cbba7}
+
+  '@schafe-vorm-fenster/adapter-google-cli-slides@0.2.1':
+    resolution: {integrity: sha512-kTOufjRwsgaApPfz+rzGk7WRf5bMATSYVR1qmBQnjrtcLuGZlFOsw5cwmJogCf2K6kwSu6sHJKtqF8F7Ocn1Zg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-google-cli-slides/0.2.1/b3e10f9b14327f51f8dfd5f15834bf4deb4f5eec}
+
+  '@schafe-vorm-fenster/adapter-markdown-cli@0.2.2':
+    resolution: {integrity: sha512-OOI48OEAPuJ8tlmvP+DEz5Hfq7tVQlWDum1Os5iyk0WWUuv7aSkl9YrCzagKxvUw+5hMaDf+7Vcy/bQwOJbupA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-markdown-cli/0.2.2/552da76482539072a66575b9df48ed9601f43224}
+    hasBin: true
+
+  '@schafe-vorm-fenster/adapter-nana-banana@0.2.1':
+    resolution: {integrity: sha512-OBOS3wHfoBrK9Q+xDGQhD1/VjSoiPrpyl8bkUmHwSJkaCc1ktS7u9FY5KnzCKvVFVi1l6UwrXjX726TNg0ynsA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-nana-banana/0.2.1/e73ee93608c5a65f14e45f624fd27d6d33d86f51}
+
+  '@schafe-vorm-fenster/adapter-publer-api@0.2.0':
+    resolution: {integrity: sha512-kRPJrv0Sod0WoqeKmVxeixSq6MVqbCH6ZOTeoesxt5hFcoj/if4Ss0BnEkQSudnRiU+Xh+CUR+d80sMtwT6xow==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-publer-api/0.2.0/ae02848e1372323c72cbf38270f2e1112eff8d1f}
+
+  '@schafe-vorm-fenster/adapter-trivy-cli@0.2.1':
+    resolution: {integrity: sha512-IS3qQHmnF1sgD9jnJCf69YJX+APg1npOraeMHyO0c1eQprjDgKTEB+h8ZVcQyJBciRXXekQmzd/JU6Kc3QXvNA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-trivy-cli/0.2.1/fc5d9003de400cd70ed7d414a6a37407f7447b4e}
+
+  '@schafe-vorm-fenster/adapter-vercel-cli@0.2.1':
+    resolution: {integrity: sha512-Jr0V61E+HKDbYz3/tiuPK2P3QJRoj1QR+0FAEBCRek5YVQMjOXso+nExX/fLrNhwRI+ieQzJkz1KHSIM1If5KA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/adapter-vercel-cli/0.2.1/e1f3992c29f79633372b67a7125946e9d1737413}
+
+  '@schafe-vorm-fenster/agent-analyst@0.2.0':
+    resolution: {integrity: sha512-mpsnPZnNixTCnYnWv7Vy0leuzkqiQb6ej7qMGSltGyjmA2GPQurGV2udPsahes0ZMX0A9nXkDnaSIAhUYvk16Q==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-analyst/0.2.0/783f3dfe61db944d90a3dfc9e62f6815f8bd0ace}
+
+  '@schafe-vorm-fenster/agent-architect@0.2.0':
+    resolution: {integrity: sha512-OuYd3MNITadH8KtbyL3MeTwCQrRq0uAhDOT2KRdvXIIjwZ2ZvdCAeEpsGq51uenK65T63Cub6UOzspt8UgPqQQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-architect/0.2.0/4550a99bfdb576c0e0dda2df1160c41d2f1bfa08}
+
+  '@schafe-vorm-fenster/agent-auditor@0.2.0':
+    resolution: {integrity: sha512-tC1OeMTCUkgS5FChFqjhy+pfnxhD3AC8kSmb91Qg4oIkF/Fni7kop0Q1gJWVvc1nTe0Ifk4UBMQltwmUOf/bNg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-auditor/0.2.0/2ff06df502d17694f7baaa9a144676248c2441ea}
+
+  '@schafe-vorm-fenster/agent-curator@0.2.1':
+    resolution: {integrity: sha512-SyAec+dxsECPXADj9FSl1hPJTds8JvgOLTHQdx15cD5GerKFqS+6PmZcop+j5SbsnyKaTahKAiqI93Bemf8VCQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-curator/0.2.1/cba18e60ca6ffe47f60d7662aea1b283f7b16786}
+
+  '@schafe-vorm-fenster/agent-dependency-update@0.2.1':
+    resolution: {integrity: sha512-iDOBtCVCQrtnez5887kCKUSKW8337Vu50rbvkgjmCY1hQCctcnfxH1+yQcup17FfkdPJ3h4XvyUZyIrz3AyiVw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-dependency-update/0.2.1/4c5858d918197b5b586a482e1d78482392fdcc2c}
+
+  '@schafe-vorm-fenster/agent-guardian@0.2.0':
+    resolution: {integrity: sha512-WG+FK+QfowBXAKqDImrAV4QFPfEBj9dmmn1ZRzKV6Mp2O64sz824SYmdA3uOO/8YfHx81eWt3PKXgx30p7+ODw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-guardian/0.2.0/652d150820e1556474f3c76c1022a78578d32af0}
+
+  '@schafe-vorm-fenster/agent-intake-pre-qualify@0.1.0':
+    resolution: {integrity: sha512-aU+pZ/opttUBuz+1PBmLpSS3/KyXMzBFfP+zmtxsG6rBlytCwQox0Z6GQi5oE8NOP4yNW27vbb7hB4ZsXv80hg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-intake-pre-qualify/0.1.0/665836fab72acc457c6229337eb872907362ec0d}
+
+  '@schafe-vorm-fenster/agent-orchestrator@0.3.1':
+    resolution: {integrity: sha512-eOF6tROBjJ9EJBTaoru6ONTHn4x8iMO1pG1Q+CocTeLYmx+rVoz/N9IFmR/XxQ7xJQWO9f8rrtk0GOsr5Da1OQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-orchestrator/0.3.1/c8e76883831601c18595a86377090dfe8b1a782b}
+
+  '@schafe-vorm-fenster/agent-planner@0.2.0':
+    resolution: {integrity: sha512-Z1Tum/+euPVIy82QBL9hzD2rqsdx+Wp2f+jySnyRmgVOqsv0ZBzZyR5NeC7ZWPQKZ0wYgV4ncV7mWaPDs/xKtA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-planner/0.2.0/0970a62e020af36d33355ecfdc96291472ce69f4}
+
+  '@schafe-vorm-fenster/agent-publisher@0.1.2':
+    resolution: {integrity: sha512-4sErDTTx/pLuuxsNZvWLDpRcahjGGPV78fMbSxtPR4khB0YGLW/K8nqERBq6RpFipIGC1McNI4qOPQocqPhNFg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-publisher/0.1.2/b693e1478237e91eb46618888bfd606e13c7c349}
+
+  '@schafe-vorm-fenster/agent-supervisor@0.2.0':
+    resolution: {integrity: sha512-5t18XEiCt6OYEF7GPnZyyjfojNK7/ivZZaJ/pJO88tMYA9gDYT4MI2+X375fkAcTi4LWi53ILYMSBi0tG7RNAA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-supervisor/0.2.0/11340eb32f985daf949e3a66d10f379251c6086d}
+
+  '@schafe-vorm-fenster/agent-tester@0.2.0':
+    resolution: {integrity: sha512-C7hFJnrMVoAoXcSwI6aEi417CnZR9KIUpxNcg92rurgCU6rBT4QJvwz1pqqKr42Yazuzi7cuIwzJZogPO0/B9Q==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-tester/0.2.0/313b2268e49fb97c8777a0d2367621849159ab03}
+
+  '@schafe-vorm-fenster/agent-value-insight-companion@0.1.0':
+    resolution: {integrity: sha512-cG9v6jydkqBKTp3n9pjpUp3xWh9EliBcM+FHeQuLURI3qSrjMGNZYMGPTXKicnMV3ii28/17mAWauWA1i7f6qg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-value-insight-companion/0.1.0/2997ffa05119526a3e629973f32491c19d407afd}
+
+  '@schafe-vorm-fenster/agent-visual-designer@0.1.1':
+    resolution: {integrity: sha512-FZYGFL6dO8cUM/lpBpzAfQN8uaqln4KTO351dF4JUURFRQkUp3j1vtYsvzVXQVVwiWs301McoWNFpAUjzdRlFw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/agent-visual-designer/0.1.1/3d0964cee6393922621dde03aaf224fbbc59ba4b}
+
+  '@schafe-vorm-fenster/cli@0.4.1':
+    resolution: {integrity: sha512-w/Yo8y0mTHZnY8sR+4Ka8cN1AlzDsesAz3RUL/KCI2fVltWveAONnFGFd2OF3jj8YCQZ/CbxPmXygForE4MpSQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/cli/0.4.1/181de2498d7b366388bf843bb1c76e7f6d49a949}
+    hasBin: true
+
+  '@schafe-vorm-fenster/config-core@0.1.3':
+    resolution: {integrity: sha512-pYoz2nzZyZkNGndScnfac2QmO7UMFZ1laGBkQYA836KeHOWAbHi/4doTfLWXdvLkO20eNr8Z7n2sxmr7LLW2kg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/config-core/0.1.3/d08025665e13a60afb107c406b94a65045c38ed9}
+
+  '@schafe-vorm-fenster/config@0.3.2':
+    resolution: {integrity: sha512-3kK4Ss9YutT/DGHMOd+GjSCcjT0GLLZxPjQuuFUWBDe55nNN2FZF3eVYHXYe2L37N4Iy3UVX5PwfjQxkZIQyqQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/config/0.3.2/cd524ab3f6540f288f38dfeaac1e4d1277e75e72}
+
+  '@schafe-vorm-fenster/foundation-culture-values@0.2.0':
+    resolution: {integrity: sha512-qnnwabLMXATdoA6MSlj0ZJ6pk/mJmZ3A0kCFC2vce/JLasBPzwb6Dmy4rTw+XbXFkM8k6FE/zSGUEXUPVfytJA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/foundation-culture-values/0.2.0/92460e9e82cd6120f2309c8e82700ca1978e4e00}
+
+  '@schafe-vorm-fenster/foundation-factual-integrity@0.1.1':
+    resolution: {integrity: sha512-4sxDSiAVPKS61BZA2FL9ORz4ZIKmwf9NAqeDCacuOLsSU/l40oyrQLnGY1p/H5TRRoLg2Dj6t5OuprPFuM+WiQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/foundation-factual-integrity/0.1.1/7e3b1d9ce608ad7659bd001130f220162d06ccf2}
+
+  '@schafe-vorm-fenster/foundation-tone-of-voice@0.2.0':
+    resolution: {integrity: sha512-3sU8xuczcz6W6F4X11XZIEEOIAI7OEfUfIx8xWYj+0kXnwIx1SR3O6d4l/MxkjXv929pyro1OYK8TDv7oChVCg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/foundation-tone-of-voice/0.2.0/2dd22b988b9aa9a2b0163c784587e4a56bdb6b62}
+
+  '@schafe-vorm-fenster/method-option-scoring@0.1.1':
+    resolution: {integrity: sha512-43WDK7nJl8mLIgSCE0eRUO8hKz4Jq8YmOHF181NtfFE10TsxJr+ChiKE2G3BtryINqXXElrefQsmbitvMn0NjQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/method-option-scoring/0.1.1/8292c0c87c609041cb09731d26b502f39ed7cf7c}
+
+  '@schafe-vorm-fenster/method-variant-optioning@0.1.1':
+    resolution: {integrity: sha512-Ll4XWVwIyjVYZQO1CzL6hO7BdsbdwDLEFIHyR9JbHr1xktR91GP3KZzdizbqzQXPudNJxwR8lqLajDuMhoSzow==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/method-variant-optioning/0.1.1/39e403c97954d5ccb0bf0d7452134928a3d84dc6}
+
+  '@schafe-vorm-fenster/playbook-audience-insight-delivery@0.2.1':
+    resolution: {integrity: sha512-hmgkvg8ZkFY/VpK+ZgHHJaFRvQ9sGeGCwCISpTQa3l6gh0plahDr8zdErIYFZpSJeVOxADWYlt0Igx4xep8Jyg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-audience-insight-delivery/0.2.1/f2a5a1b580c12ffc81c988027c5721a1b69218a7}
+
+  '@schafe-vorm-fenster/playbook-communication-planning@0.3.0':
+    resolution: {integrity: sha512-CbsMO6GCCH5B6xtXdqSK5YR49ZNve+IJMSWrFaK5o+ZWR25kq7ePhEbg4+J/GZWr3gwZGhPw3gsNWUt1Rt+PvQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-communication-planning/0.3.0/a5401d400b594722a8af1006ca85d5ce5aa475f9}
+
+  '@schafe-vorm-fenster/playbook-content-generation-mapping@0.2.2':
+    resolution: {integrity: sha512-GoyV5Eahw+TT3T8F3nkFEK+tyYIsHhwUSprKZGuoOlZxHQTqxYcDujS/sKOyxNhhybJmu8XLxqvvQcsd3tK06Q==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-content-generation-mapping/0.2.2/cd0faf385dcc8c05464197d83b09fd1f810ac29a}
+
+  '@schafe-vorm-fenster/playbook-continuous-delivery@0.1.1':
+    resolution: {integrity: sha512-nBCimK8DHUEsTYakZxLDWl2Of9s05CN8P3/DBovHeGIZJWNXSMOPAn/3j4sd+e6nh8Qr3bU8UkqxBpR1aKyeLA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-continuous-delivery/0.1.1/d5f75140c6b0f6fe11c248ffaa2d46c79fd377a6}
+
+  '@schafe-vorm-fenster/playbook-dependency-update@0.3.1':
+    resolution: {integrity: sha512-Uxm6MuocGU0C0Rv7KLuTGY+nWcraBmLdMj0aqHdPUmmfk+sUxzSHga4HmGPVgRCxGnxqOe0xfV9qnXkD036RRg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-dependency-update/0.3.1/c924dda18c910ebdf5f87aa866749d0aff66c975}
+
+  '@schafe-vorm-fenster/playbook-engineering-v-model-delivery@0.3.1':
+    resolution: {integrity: sha512-tbs9X6bILvy7eOcq/NHGRuUA/XfuNQA8qzsdF/3Q6n/GEHg8kN/KFqP703iHY8+uqX1AFqWhoK7/bN68K6msmw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-engineering-v-model-delivery/0.3.1/f59558c6866b2b86422a023df10ac1ee92f96fbf}
+
+  '@schafe-vorm-fenster/playbook-leafcutter-os-intake@0.2.1':
+    resolution: {integrity: sha512-dzikTY7OA5syMiPCo4CfXBU7wKjHx2KLaRmisqgXR6DcUpJ0EogchGxckBEq8dBZfvyNRAHsujvn5z7sMhac/A==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-leafcutter-os-intake/0.2.1/8545940bac96aa70536dc04ed00d776dbd31b1b5}
+
+  '@schafe-vorm-fenster/playbook-pre-qualify-input@0.1.1':
+    resolution: {integrity: sha512-qIdLJGYiLLjgU6aBhNfZ12dVR+mPnoM14pYmIXOOplghz1mnfSjgffdzsnHkEOgw1X4p4pJWX73pMtScH5zYXA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-pre-qualify-input/0.1.1/29ceb582654ae9b48f4ec80a1ffa9881384f1e1b}
+
+  '@schafe-vorm-fenster/playbook-publishing-execution@0.1.5':
+    resolution: {integrity: sha512-Okm7+CvNhHjGY9No/E5roX1S5pdAR9zlsqDbobj5iU6yeCkEaBtXg8oNMeqNjD3tPRhYPcfF7PbgWzTspyPrZQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-publishing-execution/0.1.5/cccb35d93e6a2f72f85377698ac76cb1e762d10c}
+
+  '@schafe-vorm-fenster/playbook-rebase-on-main@0.2.1':
+    resolution: {integrity: sha512-8NVmPc9jdJpip7V+PgfPAsPPA87xnQKs4ILThnKGgZ2HuWJiNY/hIpeyhGBRXVDOCgkbxPykfw7JToXIdpfAuQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/playbook-rebase-on-main/0.2.1/8d5901803f01c6fb5445ea460c08fabf9627ae3d}
+
+  '@schafe-vorm-fenster/role-architect@0.2.0':
+    resolution: {integrity: sha512-MupdTh8rWAECrH995niaINSKvTEAz+DvvhWojX6h2M7ow/imFmw2MLvwvzmI9saZyR+q97dMvgdeUM+4KK8EdA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-architect/0.2.0/a40c491fd8c3e2425a6e481230bedd2baccdb9a4}
+
+  '@schafe-vorm-fenster/role-code-reviewer@0.2.0':
+    resolution: {integrity: sha512-xhHBd59rTo7PgQEKXp5ZiEp5uOB5bsp5PlI3NtBRZDv8ERxdMSemFIive3NVm3iA5GjU3sb51TmusZlMnbMaug==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-code-reviewer/0.2.0/4abf229926c6473c3bfa4e96de083bc3c8051d98}
+
+  '@schafe-vorm-fenster/role-orchestrator@0.2.0':
+    resolution: {integrity: sha512-HF9Y6hVQeS5xEFfAZTQ6jSlQX/SH6CoFAEqNDG3j74UJiL3kxVbIt1RszrlmcQjHM2pONToiZ+IV+9k1PrWqdA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-orchestrator/0.2.0/462eb9a26715fd3cd6a1992c532e4f309415b360}
+
+  '@schafe-vorm-fenster/role-requirements-auditor@0.2.0':
+    resolution: {integrity: sha512-ZcMaxocFPXK6AciH9/FoBxWVu2AqQjGITwM4BW22PZWpZuvRb/6SHUHM9r1KF8LuJFUMfKZrKQVyyYgUH2Ktow==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-requirements-auditor/0.2.0/8f229985794a0cbad23a1eb293d353b4d2ce8ff4}
+
+  '@schafe-vorm-fenster/role-requirements-engineer@0.2.0':
+    resolution: {integrity: sha512-qIoJLTGLTwsyPzBH41cZONhyll3TkvRs2F3DNIoVMT6x9DgLiip667A1yTRzIovgKeAbPdyQdprIPqQr3gMI7Q==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-requirements-engineer/0.2.0/1f29b13b6b438b86ba8ed156abb3dc81b0757013}
+
+  '@schafe-vorm-fenster/role-supervisor@0.2.0':
+    resolution: {integrity: sha512-elto4oU+/kLK6gst9YkLvBiY0Tp23UeJ7qJADwzhynhaxXPI3recmuqku7fnnJeDV65nRsW6GHwgpf+yq2aA6w==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-supervisor/0.2.0/ef657c54327121fcd2d8d5d48aed27d01ac8f0ea}
+
+  '@schafe-vorm-fenster/role-test-engineer@0.2.0':
+    resolution: {integrity: sha512-Tl0hX6IH2w1025ESscbRelZFXps5Sh5Gc6abtDQ6MKjf4rANWFbPfxeMF+86sGIj0j1cYynO9CnmspfvDgxugQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/role-test-engineer/0.2.0/e0998b8f7db4f12371ca2e54a71987df6ac50292}
+
+  '@schafe-vorm-fenster/skill-adapter-writing@0.2.1':
+    resolution: {integrity: sha512-w+E2uVf5kjfidWGORIF4RUm7wn4WVB8unc4XMk9kPH3LPM6xJ0saYLdCrcG2G4ahmcZmzafPoi+zakO83TurBw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-adapter-writing/0.2.1/ccd7005279ac6ed6b3d8912d8249330507c6708c}
+
+  '@schafe-vorm-fenster/skill-agent-writing@0.2.1':
+    resolution: {integrity: sha512-W7aKn4MQzqxzJwGckxiv6cwpQ4ZVCCGRE3oVMdU9kpgrosb6fx3IbQR2BKDyGNOc1FlDtiPQAF2fJeoHKRrhdQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-agent-writing/0.2.1/6010e8e1efef0ec078409e839b747bda55358bce}
+
+  '@schafe-vorm-fenster/skill-artifact-classification@0.2.1':
+    resolution: {integrity: sha512-xtmCAqGHfED10Uh9SDzJ3Vh9uqVB3xSsb07NLa7I6H7KO9om6Fch5ClNHS2hfxOpkCYwuS3CWVpyiFTbUWlIXA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-artifact-classification/0.2.1/9f67ac8310ba7cd6052d00527cf42543e10b2c44}
+
+  '@schafe-vorm-fenster/skill-audio-to-text@0.4.1':
+    resolution: {integrity: sha512-8nPRvoL9i0pRZdUrt8vwtKFELTzY9yK38dzQq5IDHLrGOW8qfCE4eorxy3G+kil3edt69XgT7BXqTGKMVvk6EA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-audio-to-text/0.4.1/8c6000805dcbc45d4da2a891e8f76b9a7ed8db35}
+
+  '@schafe-vorm-fenster/skill-create-media-article@0.1.1':
+    resolution: {integrity: sha512-GJaiRXXhDZs4orUGy2Qvdw4W3iXrp22jT/KGrAe4nISK9Mw4fKcSiyLNjgJWZ2dAwaa5QCtZFYYwsg1bo5s3xw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-create-media-article/0.1.1/e9b3a7cc9f472700759390d65d962a5a7ecb0141}
+
+  '@schafe-vorm-fenster/skill-create-media-post@0.1.1':
+    resolution: {integrity: sha512-kKHxyAS+zonAETWN4RKuersKaWbQPxWjKfdArfDlaLDpsQXFXulaHp4fFqLUfH1qBKSIHicrBNh2VYu8/M8oEQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-create-media-post/0.1.1/19a6b983b48c235a9f5ba2f95c0b1b18d4c10ac6}
+
+  '@schafe-vorm-fenster/skill-create-media-slides@0.1.1':
+    resolution: {integrity: sha512-RTse0wqJkzPiqwBYtt5zrZkD5cErWSJDBpXu8sgLTC1yvcAoGRmGVvxGih3d84LYVX7hLlVSImevk9g2D+ZFTg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-create-media-slides/0.1.1/3183974c4da191273f7117c3fb469b4859d93ea5}
+
+  '@schafe-vorm-fenster/skill-edit-media-slides@0.1.1':
+    resolution: {integrity: sha512-sOkZ3vG6nVJSluL+FgJtJXgRb9kzt5Nkll8mbIE1CZeRDa4i8a/sMbvoa++j/FQq4XfsBj2nQ88qNZcLm9STOA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-edit-media-slides/0.1.1/2ff5ea56da40eee8f02db764b2a9c59f1fd5967e}
+
+  '@schafe-vorm-fenster/skill-folder-index@0.1.2':
+    resolution: {integrity: sha512-fv+PvGOm7hpDcDf1NUEtCW0RxIoVnYvOjSz/FhO4OetEzBWbcVJcN0kOd3Js70JKfMUIvbaOuWYJdCsSLKvVBg==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-folder-index/0.1.2/c5df4d8ecd0324b1c2a9d501ebb746d04717b5d6}
+
+  '@schafe-vorm-fenster/skill-foundation-writing@0.2.1':
+    resolution: {integrity: sha512-l9OP9IUv5zYcO+asuXfmuvhI4wZ9ouGFEfm18LjdWPsy4OpFiTY6KGCtnlIbCGL71Dlyzvcp/ywcZhOPdBdTbA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-foundation-writing/0.2.1/42e042c1c73b04acdd7f3d4cf2948c9ec186a595}
+
+  '@schafe-vorm-fenster/skill-github-issues@0.2.1':
+    resolution: {integrity: sha512-US089PXseVJBewlCoSHT8PcU250DLLeWBMEf+aYKzls6fcqdJf+EI4aTfnjTbnnOVNtZKAbhjEkfKJw9+yM8/Q==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-github-issues/0.2.1/4340c562e175d931dc20df4427b5c64993e6a9e0}
+
+  '@schafe-vorm-fenster/skill-markdown-formatting@0.1.1':
+    resolution: {integrity: sha512-vEIMGStfTlXrta3rn9lxES3u6E7Se1WitLDviA8Va6nFTVfD74sXdh6ufcLCdhGOMu8JwWk4j40Btz0VNg7ELA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-markdown-formatting/0.1.1/9c1b1d6a84d1a226a404b2fbc67cba4c7f059804}
+
+  '@schafe-vorm-fenster/skill-optimize-media-image@0.1.1':
+    resolution: {integrity: sha512-mPOeW7s0wBWeiSwUpPglXtp7hCcKoFJeHs/+KKJ2EAgrDmbI0E7sGWkC89jtYjt4b2XlJlKRYv9gMuv/d6yTMA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-optimize-media-image/0.1.1/37629d6ca6789eed65dbdbc9df87a9ffc9372db0}
+
+  '@schafe-vorm-fenster/skill-playbook-writing@0.2.1':
+    resolution: {integrity: sha512-BxOcGv5PpOgUpWtCLdlOmI5LjtehM/fbuksAfbY+dMRvKT3FsPNJR0a1RMzGpYMvF5b73vfzEYJyqdPLJtbcHA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-playbook-writing/0.2.1/36f4f102b24b280914fe0dba6175b9c7926eff70}
+
+  '@schafe-vorm-fenster/skill-publish-media-post@0.1.1':
+    resolution: {integrity: sha512-YFO6rH4ukWATHGY1NJErmAiYGyKGYqA/1aW54/ah6QoErwP0cY2553Imi8QMeQMmpmN9cayErnFTNI/9Ak8Rng==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-publish-media-post/0.1.1/58a2aaeab13abff1e472e4e4dd61e11f69c0e004}
+
+  '@schafe-vorm-fenster/skill-select-media-format@0.1.1':
+    resolution: {integrity: sha512-osvNkHRpK0ERuNcYko9qzQxfIxa+pM1DBfd5sIJzfvoN0EyKtApvXKWjocVtFxmhm8jQQZKeMfTRIoG54AgIPA==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-select-media-format/0.1.1/92444465576643471939de3ef1efbaa016c4bf0f}
+
+  '@schafe-vorm-fenster/skill-skill-writing@0.2.1':
+    resolution: {integrity: sha512-mu6EnN8XiFX1Da5m3eghgaMl329IH+SDsQNpk9p4ozMrQwMIGdWl1QqXBCOJAj7BgGWlLuytTVrOnGvVRPVlHQ==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-skill-writing/0.2.1/8c1ae15b87037660bfb3f02099dae58d901ba85d}
+
+  '@schafe-vorm-fenster/skill-text-to-feature@0.2.1':
+    resolution: {integrity: sha512-n6JQ8kmQ1CpuT8MyNbc3yZCQpKn7wXRanLPPJtmCC0QpRy6hkfggqvLLQ97MpYAn+SnrV7CByDFV3yB7zwDqjw==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-text-to-feature/0.2.1/6facfcaddd9d3e64f51a8fddf60625a96d5392d3}
+
+  '@schafe-vorm-fenster/skill-text-to-structure@0.2.1':
+    resolution: {integrity: sha512-LwTyk0a6nn3yMny8rfXqFrB9J8OzwwChjQCzYgqbfxOs7w8Twq6brI27E77AVwd48cSElUh35b7gz1XZA/c61w==, tarball: https://npm.pkg.github.com/download/@schafe-vorm-fenster/skill-text-to-structure/0.2.1/edc0cc406dc82ba057df40d6229e2d508a89fbdc}
+
+  '@sindresorhus/merge-streams@2.3.0':
+    resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
+    engines: {node: '>=18'}
+
+  '@types/debug@4.1.13':
+    resolution: {integrity: sha512-KSVgmQmzMwPlmtljOomayoR89W4FynCAi3E8PPs7vmDVPe84hT+vGPKkJfThkmXs0x0jAaa9U8uW8bbfyS2fWw==}
+
+  '@types/katex@0.16.8':
+    resolution: {integrity: sha512-trgaNyfU+Xh2Tc+ABIb44a5AYUpicB3uwirOioeOkNPPbmgRNtcWyDeeFRzjPZENO9Vq8gvVqfhaaXWLlevVwg==}
+
+  '@types/ms@2.1.0':
+    resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
+
+  '@types/unist@2.0.11':
+    resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+
+  braces@3.0.3:
+    resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
+    engines: {node: '>=8'}
+
+  character-entities-legacy@3.0.0:
+    resolution: {integrity: sha512-RpPp0asT/6ufRm//AJVwpViZbGM/MkjQFxJccQRHmISF/22NBtsHqAWmL+/pmkPWoIUJdWyeVleTl1wydHATVQ==}
+
+  character-entities@2.0.2:
+    resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
+
+  character-reference-invalid@2.0.1:
+    resolution: {integrity: sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==}
+
+  commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
+
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  decode-named-character-reference@1.3.0:
+    resolution: {integrity: sha512-GtpQYB283KrPp6nRw50q3U9/VfOutZOe103qlN7BPP6Ad27xYnOIWv4lPzo8HCAL+mMZofJ9KEy30fq6MfaK6Q==}
+
+  dequal@2.0.3:
+    resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
+    engines: {node: '>=6'}
+
+  devlop@1.1.0:
+    resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
+
+  entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
+    engines: {node: '>=0.12'}
+
+  fast-glob@3.3.3:
+    resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
+    engines: {node: '>=8.6.0'}
+
+  fastq@1.20.1:
+    resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
+
+  ffmpeg@0.0.4:
+    resolution: {integrity: sha512-3TgWUJJlZGQn+crJFyhsO/oNeRRnGTy6GhgS98oUCIfZrOW5haPPV7DUfOm3xJcHr5q3TJpjk2GudPutrNisRA==}
+
+  fill-range@7.1.1:
+    resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
+    engines: {node: '>=8'}
+
+  glob-parent@5.1.2:
+    resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
+    engines: {node: '>= 6'}
+
+  globby@14.0.2:
+    resolution: {integrity: sha512-s3Fq41ZVh7vbbe2PN3nrW7yC7U7MFVc5c98/iTl9c2GawNMKx/J648KQRW6WKkuU8GIbbh2IXfIRQjOZnXcTnw==}
+    engines: {node: '>=18'}
+
+  ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
+    engines: {node: '>= 4'}
+
+  is-alphabetical@2.0.1:
+    resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
+
+  is-alphanumerical@2.0.1:
+    resolution: {integrity: sha512-hmbYhX/9MUMF5uh7tOXyK/n0ZvWpad5caBA17GsC6vyuCqaWliRG5K1qS9inmUhEMaOBIW7/whAnSwveW/LtZw==}
+
+  is-decimal@2.0.1:
+    resolution: {integrity: sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==}
+
+  is-extglob@2.1.1:
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
+    engines: {node: '>=0.10.0'}
+
+  is-glob@4.0.3:
+    resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
+    engines: {node: '>=0.10.0'}
+
+  is-hexadecimal@2.0.1:
+    resolution: {integrity: sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==}
+
+  is-number@7.0.0:
+    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
+    engines: {node: '>=0.12.0'}
+
+  js-yaml@4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+
+  js-yaml@4.2.0:
+    resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
+    hasBin: true
+
+  jsonc-parser@3.3.1:
+    resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
+
+  katex@0.16.47:
+    resolution: {integrity: sha512-Eeo8Ys1doU1z+x8AZsPpQu+p/QcZBI5PeOo7QGQdy2x2m0MU/hYagBbGOmXwr5KVbEfVuWv9LpnQWeehogurjg==}
+    hasBin: true
+
+  linkify-it@5.0.1:
+    resolution: {integrity: sha512-wVoTjP4Q6R0NW5hiZkVJaFZPWgtXfoGF+6LucL3/FtiNjmcHhYjEr5f1Kqjirc1nBW07J/ZuRFumqr2oqccEWg==}
+
+  markdown-it@14.1.0:
+    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+    hasBin: true
+
+  markdownlint-cli2-formatter-default@0.0.5:
+    resolution: {integrity: sha512-4XKTwQ5m1+Txo2kuQ3Jgpo/KmnG+X90dWt4acufg6HVGadTUG5hzHF/wssp9b5MBYOMCnZ9RMPaU//uHsszF8Q==}
+    peerDependencies:
+      markdownlint-cli2: '>=0.0.4'
+
+  markdownlint-cli2@0.17.2:
+    resolution: {integrity: sha512-XH06ZOi8wCrtOSSj3p8y3yJzwgzYOSa7lglNyS3fP05JPRzRGyjauBb5UvlLUSCGysMmULS1moxdRHHudV+g/Q==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  markdownlint@0.37.4:
+    resolution: {integrity: sha512-u00joA/syf3VhWh6/ybVFkib5Zpj2e5KB/cfCei8fkSRuums6nyisTWGqjTWIOFoFwuXoTBQQiqlB4qFKp8ncQ==}
+    engines: {node: '>=18'}
+
+  mdurl@2.0.0:
+    resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
+
+  merge2@1.4.1:
+    resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
+    engines: {node: '>= 8'}
+
+  micromark-core-commonmark@2.0.2:
+    resolution: {integrity: sha512-FKjQKbxd1cibWMM1P9N+H8TwlgGgSkWZMmfuVucLCHaYqeSvJ0hFeHsIa65pA2nYbes0f8LDHPMrd9X7Ujxg9w==}
+
+  micromark-extension-directive@3.0.2:
+    resolution: {integrity: sha512-wjcXHgk+PPdmvR58Le9d7zQYWy+vKEU9Se44p2CrCDPiLr2FMyiT4Fyb5UFKFC66wGB3kPlgD7q3TnoqPS7SZA==}
+
+  micromark-extension-gfm-autolink-literal@2.1.0:
+    resolution: {integrity: sha512-oOg7knzhicgQ3t4QCjCWgTmfNhvQbDDnJeVu9v81r7NltNCVmhPy1fJRX27pISafdjL+SVc4d3l48Gb6pbRypw==}
+
+  micromark-extension-gfm-footnote@2.1.0:
+    resolution: {integrity: sha512-/yPhxI1ntnDNsiHtzLKYnE3vf9JZ6cAisqVDauhp4CEHxlb4uoOTxOCJ+9s51bIB8U1N1FJ1RXOKTIlD5B/gqw==}
+
+  micromark-extension-gfm-table@2.1.0:
+    resolution: {integrity: sha512-Ub2ncQv+fwD70/l4ou27b4YzfNaCJOvyX4HxXU15m7mpYY+rjuWzsLIPZHJL253Z643RpbcP1oeIJlQ/SKW67g==}
+
+  micromark-extension-math@3.1.0:
+    resolution: {integrity: sha512-lvEqd+fHjATVs+2v/8kg9i5Q0AP2k85H0WUOwpIVvUML8BapsMvh1XAogmQjOCsLpoKRCVQqEkQBB3NhVBcsOg==}
+
+  micromark-factory-destination@2.0.1:
+    resolution: {integrity: sha512-Xe6rDdJlkmbFRExpTOmRj9N3MaWmbAgdpSrBQvCFqhezUn4AHqJHbaEnfbVYYiexVSs//tqOdY/DxhjdCiJnIA==}
+
+  micromark-factory-label@2.0.1:
+    resolution: {integrity: sha512-VFMekyQExqIW7xIChcXn4ok29YE3rnuyveW3wZQWWqF4Nv9Wk5rgJ99KzPvHjkmPXF93FXIbBp6YdW3t71/7Vg==}
+
+  micromark-factory-space@2.0.1:
+    resolution: {integrity: sha512-zRkxjtBxxLd2Sc0d+fbnEunsTj46SWXgXciZmHq0kDYGnck/ZSGj9/wULTV95uoeYiK5hRXP2mJ98Uo4cq/LQg==}
+
+  micromark-factory-title@2.0.1:
+    resolution: {integrity: sha512-5bZ+3CjhAd9eChYTHsjy6TGxpOFSKgKKJPJxr293jTbfry2KDoWkhBb6TcPVB4NmzaPhMs1Frm9AZH7OD4Cjzw==}
+
+  micromark-factory-whitespace@2.0.1:
+    resolution: {integrity: sha512-Ob0nuZ3PKt/n0hORHyvoD9uZhr+Za8sFoP+OnMcnWK5lngSzALgQYKMr9RJVOWLqQYuyn6ulqGWSXdwf6F80lQ==}
+
+  micromark-util-character@2.1.1:
+    resolution: {integrity: sha512-wv8tdUTJ3thSFFFJKtpYKOYiGP2+v96Hvk4Tu8KpCAsTMs6yi+nVmGh1syvSCsaxz45J6Jbw+9DD6g97+NV67Q==}
+
+  micromark-util-chunked@2.0.1:
+    resolution: {integrity: sha512-QUNFEOPELfmvv+4xiNg2sRYeS/P84pTW0TCgP5zc9FpXetHY0ab7SxKyAQCNCc1eK0459uoLI1y5oO5Vc1dbhA==}
+
+  micromark-util-classify-character@2.0.1:
+    resolution: {integrity: sha512-K0kHzM6afW/MbeWYWLjoHQv1sgg2Q9EccHEDzSkxiP/EaagNzCm7T/WMKZ3rjMbvIpvBiZgwR3dKMygtA4mG1Q==}
+
+  micromark-util-combine-extensions@2.0.1:
+    resolution: {integrity: sha512-OnAnH8Ujmy59JcyZw8JSbK9cGpdVY44NKgSM7E9Eh7DiLS2E9RNQf0dONaGDzEG9yjEl5hcqeIsj4hfRkLH/Bg==}
+
+  micromark-util-decode-numeric-character-reference@2.0.2:
+    resolution: {integrity: sha512-ccUbYk6CwVdkmCQMyr64dXz42EfHGkPQlBj5p7YVGzq8I7CtjXZJrubAYezf7Rp+bjPseiROqe7G6foFd+lEuw==}
+
+  micromark-util-encode@2.0.1:
+    resolution: {integrity: sha512-c3cVx2y4KqUnwopcO9b/SCdo2O67LwJJ/UyqGfbigahfegL9myoEFoDYZgkT7f36T0bLrM9hZTAaAyH+PCAXjw==}
+
+  micromark-util-html-tag-name@2.0.1:
+    resolution: {integrity: sha512-2cNEiYDhCWKI+Gs9T0Tiysk136SnR13hhO8yW6BGNyhOC4qYFnwF1nKfD3HFAIXA5c45RrIG1ub11GiXeYd1xA==}
+
+  micromark-util-normalize-identifier@2.0.1:
+    resolution: {integrity: sha512-sxPqmo70LyARJs0w2UclACPUUEqltCkJ6PhKdMIDuJ3gSf/Q+/GIe3WKl0Ijb/GyH9lOpUkRAO2wp0GVkLvS9Q==}
+
+  micromark-util-resolve-all@2.0.1:
+    resolution: {integrity: sha512-VdQyxFWFT2/FGJgwQnJYbe1jjQoNTS4RjglmSjTUlpUMa95Htx9NHeYW4rGDJzbjvCsl9eLjMQwGeElsqmzcHg==}
+
+  micromark-util-sanitize-uri@2.0.1:
+    resolution: {integrity: sha512-9N9IomZ/YuGGZZmQec1MbgxtlgougxTodVwDzzEouPKo3qFWvymFHWcnDi2vzV1ff6kas9ucW+o3yzJK9YB1AQ==}
+
+  micromark-util-subtokenize@2.1.0:
+    resolution: {integrity: sha512-XQLu552iSctvnEcgXw6+Sx75GflAPNED1qx7eBJ+wydBb2KCbRZe+NwvIEEMM83uml1+2WSXpBAcp9IUCgCYWA==}
+
+  micromark-util-symbol@2.0.1:
+    resolution: {integrity: sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q==}
+
+  micromark-util-types@2.0.1:
+    resolution: {integrity: sha512-534m2WhVTddrcKVepwmVEVnUAmtrx9bfIjNoQHRqfnvdaHQiFytEhJoTgpWJvDEXCO5gLTQh3wYC1PgOJA4NSQ==}
+
+  micromark@4.0.1:
+    resolution: {integrity: sha512-eBPdkcoCNvYcxQOAKAlceo5SNdzZWfF+FcSupREAzdAh9rRmE239CEQAiTwIgblwnoM8zzj35sZ5ZwvSEOF6Kw==}
+
+  micromatch@4.0.8:
+    resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
+    engines: {node: '>=8.6'}
+
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
+  node-addon-api@7.1.1:
+    resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
+
+  node-addon-api@8.8.0:
+    resolution: {integrity: sha512-c5Ko1fZJIJmzhFIkhRN76WTq+fC6tWnGy9CXA0fA+XygsWZmEwG8vmbkNqxMyoaa0Tin4djul49NzdVcJJcjeA==}
+    engines: {node: ^18 || ^20 || >= 21}
+
+  node-pty@1.1.0:
+    resolution: {integrity: sha512-20JqtutY6JPXTUnL0ij1uad7Qe1baT46lyolh2sSENDd4sTzKZ4nmAFkeAARDKwmlLjPx6XKRlwRUxwjOy+lUg==}
+
+  parse-entities@4.0.2:
+    resolution: {integrity: sha512-GG2AQYWoLgL877gQIKeRPGO1xF9+eG1ujIb5soS5gPvLQ1y2o8FL90w2QWNdf9I361Mpp7726c+lj3U0qK1uGw==}
+
+  path-type@5.0.0:
+    resolution: {integrity: sha512-5HviZNaZcfqP95rwpv+1HDgUamezbqdSYTyzjTvwtJSnIH+3vnbmWsItli8OFEndS984VT55M3jduxZbX351gg==}
+    engines: {node: '>=12'}
+
+  picomatch@2.3.2:
+    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
+    engines: {node: '>=8.6'}
+
+  punycode.js@2.3.1:
+    resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
+    engines: {node: '>=6'}
+
+  queue-microtask@1.2.3:
+    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+
+  reusify@1.1.0:
+    resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
+    engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+
+  run-parallel@1.2.0:
+    resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
+
+  slash@5.1.0:
+    resolution: {integrity: sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==}
+    engines: {node: '>=14.16'}
+
+  to-regex-range@5.0.1:
+    resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
+    engines: {node: '>=8.0'}
+
+  uc.micro@2.1.0:
+    resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
+
+  unicorn-magic@0.1.0:
+    resolution: {integrity: sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==}
+    engines: {node: '>=18'}
+
+  when@3.7.8:
+    resolution: {integrity: sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==}
+
+snapshots:
+
+  '@github/keytar@7.10.6':
+    dependencies:
+      node-addon-api: 8.8.0
+    optional: true
+
+  '@google/gemini-cli@0.47.0':
+    optionalDependencies:
+      '@github/keytar': 7.10.6
+      '@lydell/node-pty': 1.1.0
+      '@lydell/node-pty-darwin-arm64': 1.1.0
+      '@lydell/node-pty-darwin-x64': 1.1.0
+      '@lydell/node-pty-linux-x64': 1.1.0
+      '@lydell/node-pty-win32-arm64': 1.1.0
+      '@lydell/node-pty-win32-x64': 1.1.0
+      node-pty: 1.1.0
+
+  '@lydell/node-pty-darwin-arm64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty-darwin-x64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty-linux-arm64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty-linux-x64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty-win32-arm64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty-win32-x64@1.1.0':
+    optional: true
+
+  '@lydell/node-pty@1.1.0':
+    optionalDependencies:
+      '@lydell/node-pty-darwin-arm64': 1.1.0
+      '@lydell/node-pty-darwin-x64': 1.1.0
+      '@lydell/node-pty-linux-arm64': 1.1.0
+      '@lydell/node-pty-linux-x64': 1.1.0
+      '@lydell/node-pty-win32-arm64': 1.1.0
+      '@lydell/node-pty-win32-x64': 1.1.0
+    optional: true
+
+  '@nodelib/fs.scandir@2.1.5':
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      run-parallel: 1.2.0
+
+  '@nodelib/fs.stat@2.0.5': {}
+
+  '@nodelib/fs.walk@1.2.8':
+    dependencies:
+      '@nodelib/fs.scandir': 2.1.5
+      fastq: 1.20.1
+
+  '@schafe-vorm-fenster/adapter-ffmpeg-cli@0.1.1(ffmpeg@0.0.4)':
+    dependencies:
+      ffmpeg: 0.0.4
+
+  '@schafe-vorm-fenster/adapter-gemini-cli@0.2.1(@google/gemini-cli@0.47.0)':
+    dependencies:
+      '@google/gemini-cli': 0.47.0
+
+  '@schafe-vorm-fenster/adapter-github-cli@0.2.1': {}
+
+  '@schafe-vorm-fenster/adapter-google-cli-docs@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/skill-markdown-formatting': 0.1.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@schafe-vorm-fenster/adapter-google-cli-slides@0.2.1': {}
+
+  '@schafe-vorm-fenster/adapter-markdown-cli@0.2.2':
+    dependencies:
+      markdownlint-cli2: 0.17.2
+    transitivePeerDependencies:
+      - supports-color
+
+  '@schafe-vorm-fenster/adapter-nana-banana@0.2.1': {}
+
+  '@schafe-vorm-fenster/adapter-publer-api@0.2.0': {}
+
+  '@schafe-vorm-fenster/adapter-trivy-cli@0.2.1': {}
+
+  '@schafe-vorm-fenster/adapter-vercel-cli@0.2.1': {}
+
+  '@schafe-vorm-fenster/agent-analyst@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-architect@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-auditor@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-curator@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/playbook-leafcutter-os-intake': 0.2.1
+      '@schafe-vorm-fenster/skill-adapter-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-agent-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-artifact-classification': 0.2.1
+      '@schafe-vorm-fenster/skill-foundation-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-playbook-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-skill-writing': 0.2.1
+
+  '@schafe-vorm-fenster/agent-dependency-update@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/playbook-dependency-update': 0.3.1
+      '@schafe-vorm-fenster/playbook-rebase-on-main': 0.2.1
+
+  '@schafe-vorm-fenster/agent-guardian@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-intake-pre-qualify@0.1.0':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+      '@schafe-vorm-fenster/playbook-pre-qualify-input': 0.1.1
+
+  '@schafe-vorm-fenster/agent-orchestrator@0.3.1':
+    dependencies:
+      '@schafe-vorm-fenster/playbook-engineering-v-model-delivery': 0.3.1
+
+  '@schafe-vorm-fenster/agent-planner@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-publisher@0.1.2':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-publer-api': 0.2.0
+      '@schafe-vorm-fenster/skill-publish-media-post': 0.1.1
+
+  '@schafe-vorm-fenster/agent-supervisor@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-tester@0.2.0': {}
+
+  '@schafe-vorm-fenster/agent-value-insight-companion@0.1.0':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-culture-values': 0.2.0
+      '@schafe-vorm-fenster/foundation-tone-of-voice': 0.2.0
+
+  '@schafe-vorm-fenster/agent-visual-designer@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-google-cli-slides': 0.2.1
+      '@schafe-vorm-fenster/skill-create-media-slides': 0.1.1
+      '@schafe-vorm-fenster/skill-edit-media-slides': 0.1.1
+      '@schafe-vorm-fenster/skill-optimize-media-image': 0.1.1
+      '@schafe-vorm-fenster/skill-select-media-format': 0.1.1
+
+  '@schafe-vorm-fenster/cli@0.4.1':
+    dependencies:
+      js-yaml: 4.2.0
+
+  '@schafe-vorm-fenster/config-core@0.1.3':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-github-cli': 0.2.1
+      '@schafe-vorm-fenster/cli': 0.4.1
+      '@schafe-vorm-fenster/foundation-culture-values': 0.2.0
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+      '@schafe-vorm-fenster/foundation-tone-of-voice': 0.2.0
+      '@schafe-vorm-fenster/method-option-scoring': 0.1.1
+      '@schafe-vorm-fenster/method-variant-optioning': 0.1.1
+      '@schafe-vorm-fenster/skill-adapter-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-agent-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-artifact-classification': 0.2.1
+      '@schafe-vorm-fenster/skill-folder-index': 0.1.2
+      '@schafe-vorm-fenster/skill-foundation-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-markdown-formatting': 0.1.1
+      '@schafe-vorm-fenster/skill-playbook-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-skill-writing': 0.2.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@schafe-vorm-fenster/config@0.3.2(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-gemini-cli': 0.2.1(@google/gemini-cli@0.47.0)
+      '@schafe-vorm-fenster/adapter-github-cli': 0.2.1
+      '@schafe-vorm-fenster/adapter-google-cli-docs': 0.2.1
+      '@schafe-vorm-fenster/adapter-google-cli-slides': 0.2.1
+      '@schafe-vorm-fenster/adapter-markdown-cli': 0.2.2
+      '@schafe-vorm-fenster/adapter-nana-banana': 0.2.1
+      '@schafe-vorm-fenster/adapter-publer-api': 0.2.0
+      '@schafe-vorm-fenster/adapter-trivy-cli': 0.2.1
+      '@schafe-vorm-fenster/adapter-vercel-cli': 0.2.1
+      '@schafe-vorm-fenster/agent-analyst': 0.2.0
+      '@schafe-vorm-fenster/agent-architect': 0.2.0
+      '@schafe-vorm-fenster/agent-auditor': 0.2.0
+      '@schafe-vorm-fenster/agent-curator': 0.2.1
+      '@schafe-vorm-fenster/agent-dependency-update': 0.2.1
+      '@schafe-vorm-fenster/agent-guardian': 0.2.0
+      '@schafe-vorm-fenster/agent-intake-pre-qualify': 0.1.0
+      '@schafe-vorm-fenster/agent-orchestrator': 0.3.1
+      '@schafe-vorm-fenster/agent-planner': 0.2.0
+      '@schafe-vorm-fenster/agent-publisher': 0.1.2
+      '@schafe-vorm-fenster/agent-supervisor': 0.2.0
+      '@schafe-vorm-fenster/agent-tester': 0.2.0
+      '@schafe-vorm-fenster/agent-value-insight-companion': 0.1.0
+      '@schafe-vorm-fenster/agent-visual-designer': 0.1.1
+      '@schafe-vorm-fenster/config-core': 0.1.3
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+      '@schafe-vorm-fenster/method-option-scoring': 0.1.1
+      '@schafe-vorm-fenster/method-variant-optioning': 0.1.1
+      '@schafe-vorm-fenster/playbook-audience-insight-delivery': 0.2.1
+      '@schafe-vorm-fenster/playbook-content-generation-mapping': 0.2.2(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/playbook-continuous-delivery': 0.1.1
+      '@schafe-vorm-fenster/playbook-dependency-update': 0.3.1
+      '@schafe-vorm-fenster/playbook-engineering-v-model-delivery': 0.3.1
+      '@schafe-vorm-fenster/playbook-leafcutter-os-intake': 0.2.1
+      '@schafe-vorm-fenster/playbook-publishing-execution': 0.1.5(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/playbook-rebase-on-main': 0.2.1
+      '@schafe-vorm-fenster/role-architect': 0.2.0
+      '@schafe-vorm-fenster/role-code-reviewer': 0.2.0
+      '@schafe-vorm-fenster/role-orchestrator': 0.2.0
+      '@schafe-vorm-fenster/role-requirements-auditor': 0.2.0
+      '@schafe-vorm-fenster/role-requirements-engineer': 0.2.0
+      '@schafe-vorm-fenster/role-supervisor': 0.2.0
+      '@schafe-vorm-fenster/role-test-engineer': 0.2.0
+      '@schafe-vorm-fenster/skill-audio-to-text': 0.4.1(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/skill-create-media-article': 0.1.1
+      '@schafe-vorm-fenster/skill-create-media-post': 0.1.1
+      '@schafe-vorm-fenster/skill-create-media-slides': 0.1.1
+      '@schafe-vorm-fenster/skill-edit-media-slides': 0.1.1
+      '@schafe-vorm-fenster/skill-github-issues': 0.2.1
+      '@schafe-vorm-fenster/skill-optimize-media-image': 0.1.1
+      '@schafe-vorm-fenster/skill-publish-media-post': 0.1.1
+      '@schafe-vorm-fenster/skill-select-media-format': 0.1.1
+      '@schafe-vorm-fenster/skill-text-to-feature': 0.2.1
+      '@schafe-vorm-fenster/skill-text-to-structure': 0.2.1
+    transitivePeerDependencies:
+      - '@google/gemini-cli'
+      - ffmpeg
+      - supports-color
+
+  '@schafe-vorm-fenster/foundation-culture-values@0.2.0': {}
+
+  '@schafe-vorm-fenster/foundation-factual-integrity@0.1.1': {}
+
+  '@schafe-vorm-fenster/foundation-tone-of-voice@0.2.0': {}
+
+  '@schafe-vorm-fenster/method-option-scoring@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+
+  '@schafe-vorm-fenster/method-variant-optioning@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+      '@schafe-vorm-fenster/method-option-scoring': 0.1.1
+
+  '@schafe-vorm-fenster/playbook-audience-insight-delivery@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-culture-values': 0.2.0
+      '@schafe-vorm-fenster/foundation-tone-of-voice': 0.2.0
+      '@schafe-vorm-fenster/skill-create-media-post': 0.1.1
+
+  '@schafe-vorm-fenster/playbook-communication-planning@0.3.0': {}
+
+  '@schafe-vorm-fenster/playbook-content-generation-mapping@0.2.2(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-culture-values': 0.2.0
+      '@schafe-vorm-fenster/foundation-tone-of-voice': 0.2.0
+      '@schafe-vorm-fenster/playbook-communication-planning': 0.3.0
+      '@schafe-vorm-fenster/playbook-publishing-execution': 0.1.5(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/skill-audio-to-text': 0.4.1(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/skill-create-media-post': 0.1.1
+      '@schafe-vorm-fenster/skill-create-media-slides': 0.1.1
+      '@schafe-vorm-fenster/skill-optimize-media-image': 0.1.1
+      '@schafe-vorm-fenster/skill-select-media-format': 0.1.1
+      '@schafe-vorm-fenster/skill-text-to-structure': 0.2.1
+    transitivePeerDependencies:
+      - '@google/gemini-cli'
+      - ffmpeg
+
+  '@schafe-vorm-fenster/playbook-continuous-delivery@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/role-orchestrator': 0.2.0
+
+  '@schafe-vorm-fenster/playbook-dependency-update@0.3.1':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-trivy-cli': 0.2.1
+
+  '@schafe-vorm-fenster/playbook-engineering-v-model-delivery@0.3.1':
+    dependencies:
+      '@schafe-vorm-fenster/role-architect': 0.2.0
+      '@schafe-vorm-fenster/role-code-reviewer': 0.2.0
+      '@schafe-vorm-fenster/role-orchestrator': 0.2.0
+      '@schafe-vorm-fenster/role-requirements-auditor': 0.2.0
+      '@schafe-vorm-fenster/role-requirements-engineer': 0.2.0
+      '@schafe-vorm-fenster/role-supervisor': 0.2.0
+      '@schafe-vorm-fenster/role-test-engineer': 0.2.0
+
+  '@schafe-vorm-fenster/playbook-leafcutter-os-intake@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/skill-adapter-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-agent-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-artifact-classification': 0.2.1
+      '@schafe-vorm-fenster/skill-foundation-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-playbook-writing': 0.2.1
+      '@schafe-vorm-fenster/skill-skill-writing': 0.2.1
+
+  '@schafe-vorm-fenster/playbook-pre-qualify-input@0.1.1': {}
+
+  '@schafe-vorm-fenster/playbook-publishing-execution@0.1.5(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-publer-api': 0.2.0
+      '@schafe-vorm-fenster/playbook-communication-planning': 0.3.0
+      '@schafe-vorm-fenster/playbook-content-generation-mapping': 0.2.2(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/skill-publish-media-post': 0.1.1
+    transitivePeerDependencies:
+      - '@google/gemini-cli'
+      - ffmpeg
+
+  '@schafe-vorm-fenster/playbook-rebase-on-main@0.2.1': {}
+
+  '@schafe-vorm-fenster/role-architect@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-code-reviewer@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-orchestrator@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-requirements-auditor@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-requirements-engineer@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-supervisor@0.2.0': {}
+
+  '@schafe-vorm-fenster/role-test-engineer@0.2.0': {}
+
+  '@schafe-vorm-fenster/skill-adapter-writing@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-agent-writing@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-artifact-classification@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-audio-to-text@0.4.1(@google/gemini-cli@0.47.0)(ffmpeg@0.0.4)':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-ffmpeg-cli': 0.1.1(ffmpeg@0.0.4)
+      '@schafe-vorm-fenster/adapter-gemini-cli': 0.2.1(@google/gemini-cli@0.47.0)
+    transitivePeerDependencies:
+      - '@google/gemini-cli'
+      - ffmpeg
+
+  '@schafe-vorm-fenster/skill-create-media-article@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-create-media-post@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/foundation-factual-integrity': 0.1.1
+      '@schafe-vorm-fenster/method-variant-optioning': 0.1.1
+
+  '@schafe-vorm-fenster/skill-create-media-slides@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-edit-media-slides@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-folder-index@0.1.2': {}
+
+  '@schafe-vorm-fenster/skill-foundation-writing@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-github-issues@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-markdown-formatting@0.1.1':
+    dependencies:
+      '@schafe-vorm-fenster/adapter-markdown-cli': 0.2.2
+    transitivePeerDependencies:
+      - supports-color
+
+  '@schafe-vorm-fenster/skill-optimize-media-image@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-playbook-writing@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-publish-media-post@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-select-media-format@0.1.1': {}
+
+  '@schafe-vorm-fenster/skill-skill-writing@0.2.1': {}
+
+  '@schafe-vorm-fenster/skill-text-to-feature@0.2.1':
+    dependencies:
+      '@schafe-vorm-fenster/skill-text-to-structure': 0.2.1
+
+  '@schafe-vorm-fenster/skill-text-to-structure@0.2.1': {}
+
+  '@sindresorhus/merge-streams@2.3.0': {}
+
+  '@types/debug@4.1.13':
+    dependencies:
+      '@types/ms': 2.1.0
+
+  '@types/katex@0.16.8': {}
+
+  '@types/ms@2.1.0': {}
+
+  '@types/unist@2.0.11': {}
+
+  argparse@2.0.1: {}
+
+  braces@3.0.3:
+    dependencies:
+      fill-range: 7.1.1
+
+  character-entities-legacy@3.0.0: {}
+
+  character-entities@2.0.2: {}
+
+  character-reference-invalid@2.0.1: {}
+
+  commander@8.3.0: {}
+
+  debug@4.4.3:
+    dependencies:
+      ms: 2.1.3
+
+  decode-named-character-reference@1.3.0:
+    dependencies:
+      character-entities: 2.0.2
+
+  dequal@2.0.3: {}
+
+  devlop@1.1.0:
+    dependencies:
+      dequal: 2.0.3
+
+  entities@4.5.0: {}
+
+  fast-glob@3.3.3:
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.8
+
+  fastq@1.20.1:
+    dependencies:
+      reusify: 1.1.0
+
+  ffmpeg@0.0.4:
+    dependencies:
+      when: 3.7.8
+
+  fill-range@7.1.1:
+    dependencies:
+      to-regex-range: 5.0.1
+
+  glob-parent@5.1.2:
+    dependencies:
+      is-glob: 4.0.3
+
+  globby@14.0.2:
+    dependencies:
+      '@sindresorhus/merge-streams': 2.3.0
+      fast-glob: 3.3.3
+      ignore: 5.3.2
+      path-type: 5.0.0
+      slash: 5.1.0
+      unicorn-magic: 0.1.0
+
+  ignore@5.3.2: {}
+
+  is-alphabetical@2.0.1: {}
+
+  is-alphanumerical@2.0.1:
+    dependencies:
+      is-alphabetical: 2.0.1
+      is-decimal: 2.0.1
+
+  is-decimal@2.0.1: {}
+
+  is-extglob@2.1.1: {}
+
+  is-glob@4.0.3:
+    dependencies:
+      is-extglob: 2.1.1
+
+  is-hexadecimal@2.0.1: {}
+
+  is-number@7.0.0: {}
+
+  js-yaml@4.1.0:
+    dependencies:
+      argparse: 2.0.1
+
+  js-yaml@4.2.0:
+    dependencies:
+      argparse: 2.0.1
+
+  jsonc-parser@3.3.1: {}
+
+  katex@0.16.47:
+    dependencies:
+      commander: 8.3.0
+
+  linkify-it@5.0.1:
+    dependencies:
+      uc.micro: 2.1.0
+
+  markdown-it@14.1.0:
+    dependencies:
+      argparse: 2.0.1
+      entities: 4.5.0
+      linkify-it: 5.0.1
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
+
+  markdownlint-cli2-formatter-default@0.0.5(markdownlint-cli2@0.17.2):
+    dependencies:
+      markdownlint-cli2: 0.17.2
+
+  markdownlint-cli2@0.17.2:
+    dependencies:
+      globby: 14.0.2
+      js-yaml: 4.1.0
+      jsonc-parser: 3.3.1
+      markdownlint: 0.37.4
+      markdownlint-cli2-formatter-default: 0.0.5(markdownlint-cli2@0.17.2)
+      micromatch: 4.0.8
+    transitivePeerDependencies:
+      - supports-color
+
+  markdownlint@0.37.4:
+    dependencies:
+      markdown-it: 14.1.0
+      micromark: 4.0.1
+      micromark-core-commonmark: 2.0.2
+      micromark-extension-directive: 3.0.2
+      micromark-extension-gfm-autolink-literal: 2.1.0
+      micromark-extension-gfm-footnote: 2.1.0
+      micromark-extension-gfm-table: 2.1.0
+      micromark-extension-math: 3.1.0
+      micromark-util-types: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+
+  mdurl@2.0.0: {}
+
+  merge2@1.4.1: {}
+
+  micromark-core-commonmark@2.0.2:
+    dependencies:
+      decode-named-character-reference: 1.3.0
+      devlop: 1.1.0
+      micromark-factory-destination: 2.0.1
+      micromark-factory-label: 2.0.1
+      micromark-factory-space: 2.0.1
+      micromark-factory-title: 2.0.1
+      micromark-factory-whitespace: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-chunked: 2.0.1
+      micromark-util-classify-character: 2.0.1
+      micromark-util-html-tag-name: 2.0.1
+      micromark-util-normalize-identifier: 2.0.1
+      micromark-util-resolve-all: 2.0.1
+      micromark-util-subtokenize: 2.1.0
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-extension-directive@3.0.2:
+    dependencies:
+      devlop: 1.1.0
+      micromark-factory-space: 2.0.1
+      micromark-factory-whitespace: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+      parse-entities: 4.0.2
+
+  micromark-extension-gfm-autolink-literal@2.1.0:
+    dependencies:
+      micromark-util-character: 2.1.1
+      micromark-util-sanitize-uri: 2.0.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-extension-gfm-footnote@2.1.0:
+    dependencies:
+      devlop: 1.1.0
+      micromark-core-commonmark: 2.0.2
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-normalize-identifier: 2.0.1
+      micromark-util-sanitize-uri: 2.0.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-extension-gfm-table@2.1.0:
+    dependencies:
+      devlop: 1.1.0
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-extension-math@3.1.0:
+    dependencies:
+      '@types/katex': 0.16.8
+      devlop: 1.1.0
+      katex: 0.16.47
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-factory-destination@2.0.1:
+    dependencies:
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-factory-label@2.0.1:
+    dependencies:
+      devlop: 1.1.0
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-factory-space@2.0.1:
+    dependencies:
+      micromark-util-character: 2.1.1
+      micromark-util-types: 2.0.1
+
+  micromark-factory-title@2.0.1:
+    dependencies:
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-factory-whitespace@2.0.1:
+    dependencies:
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-util-character@2.1.1:
+    dependencies:
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-util-chunked@2.0.1:
+    dependencies:
+      micromark-util-symbol: 2.0.1
+
+  micromark-util-classify-character@2.0.1:
+    dependencies:
+      micromark-util-character: 2.1.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-util-combine-extensions@2.0.1:
+    dependencies:
+      micromark-util-chunked: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-util-decode-numeric-character-reference@2.0.2:
+    dependencies:
+      micromark-util-symbol: 2.0.1
+
+  micromark-util-encode@2.0.1: {}
+
+  micromark-util-html-tag-name@2.0.1: {}
+
+  micromark-util-normalize-identifier@2.0.1:
+    dependencies:
+      micromark-util-symbol: 2.0.1
+
+  micromark-util-resolve-all@2.0.1:
+    dependencies:
+      micromark-util-types: 2.0.1
+
+  micromark-util-sanitize-uri@2.0.1:
+    dependencies:
+      micromark-util-character: 2.1.1
+      micromark-util-encode: 2.0.1
+      micromark-util-symbol: 2.0.1
+
+  micromark-util-subtokenize@2.1.0:
+    dependencies:
+      devlop: 1.1.0
+      micromark-util-chunked: 2.0.1
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+
+  micromark-util-symbol@2.0.1: {}
+
+  micromark-util-types@2.0.1: {}
+
+  micromark@4.0.1:
+    dependencies:
+      '@types/debug': 4.1.13
+      debug: 4.4.3
+      decode-named-character-reference: 1.3.0
+      devlop: 1.1.0
+      micromark-core-commonmark: 2.0.2
+      micromark-factory-space: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-chunked: 2.0.1
+      micromark-util-combine-extensions: 2.0.1
+      micromark-util-decode-numeric-character-reference: 2.0.2
+      micromark-util-encode: 2.0.1
+      micromark-util-normalize-identifier: 2.0.1
+      micromark-util-resolve-all: 2.0.1
+      micromark-util-sanitize-uri: 2.0.1
+      micromark-util-subtokenize: 2.1.0
+      micromark-util-symbol: 2.0.1
+      micromark-util-types: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+
+  micromatch@4.0.8:
+    dependencies:
+      braces: 3.0.3
+      picomatch: 2.3.2
+
+  ms@2.1.3: {}
+
+  node-addon-api@7.1.1:
+    optional: true
+
+  node-addon-api@8.8.0:
+    optional: true
+
+  node-pty@1.1.0:
+    dependencies:
+      node-addon-api: 7.1.1
+    optional: true
+
+  parse-entities@4.0.2:
+    dependencies:
+      '@types/unist': 2.0.11
+      character-entities-legacy: 3.0.0
+      character-reference-invalid: 2.0.1
+      decode-named-character-reference: 1.3.0
+      is-alphanumerical: 2.0.1
+      is-decimal: 2.0.1
+      is-hexadecimal: 2.0.1
+
+  path-type@5.0.0: {}
+
+  picomatch@2.3.2: {}
+
+  punycode.js@2.3.1: {}
+
+  queue-microtask@1.2.3: {}
+
+  reusify@1.1.0: {}
+
+  run-parallel@1.2.0:
+    dependencies:
+      queue-microtask: 1.2.3
+
+  slash@5.1.0: {}
+
+  to-regex-range@5.0.1:
+    dependencies:
+      is-number: 7.0.0
+
+  uc.micro@2.1.0: {}
+
+  unicorn-magic@0.1.0: {}
+
+  when@3.7.8: {}

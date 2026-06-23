@@ -1,0 +1,15 @@
+{
+  "name": "aoc-governance",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Public legal and constitutional documents of the Agentic Organisations Collective, organized as a governed pnpm monorepo.",
+  "packageManager": "pnpm@10.26.0",
+  "scripts": {
+    "lc:init": "leafcutter-os-init",
+    "lc:sync": "leafcutter-os-sync"
+  },
+  "devDependencies": {
+    "@schafe-vorm-fenster/cli": "^0.4.1",
+    "@schafe-vorm-fenster/config": "^0.3.2"
+  }
+}
