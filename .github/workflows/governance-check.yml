@@ -3,8 +3,8 @@ name: Governance Check
 on:
   pull_request:
     paths:
-      - 'packages/**'
-      - '.changeset/**'
+      - "packages/**"
+      - ".changeset/**"
 
 permissions:
   contents: read
