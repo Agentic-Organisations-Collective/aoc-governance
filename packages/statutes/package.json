@@ -1,6 +1,6 @@
 {
   "name": "@aoc-governance/statutes",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Canonical editable text of the collective's statutes."
 }

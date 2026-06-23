@@ -1,0 +1,14 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "2026-06-23",
+    "commit": "ee8a4836d4c7d132079635e183036437e96053c0",
+    "changesets": [
+      "initial-bylaws"
+    ],
+    "summary": "Establish the initial adopted version of the contribution rules (Beitragsordnung).",
+    "supersededBy": null,
+    "supersededByCommit": null,
+    "supersededDate": null
+  }
+]
