@@ -24,3 +24,5 @@ jobs:
           node-version: 20
       - name: Require a changeset for governed changes
         run: npx --yes @changesets/cli@^2 status --since=origin/${{ github.base_ref }}
+      - name: Require translations to stay in sync with canonical documents
+        run: node governance/cmd/check-translations.mjs --base origin/${{ github.base_ref }}

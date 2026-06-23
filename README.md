@@ -18,3 +18,11 @@ and their release history.
 
 Public read, maintainer write. Every change to a legally relevant document runs
 through review and produces an immutable, tagged release.
+
+## Languages
+
+The governed German documents are the only **legally binding** texts. Each one
+carries a **non-binding** English translation alongside it (e.g.
+`statutes.en.md`) for members and interested persons. Translations are kept in
+sync with the originals and frozen per version; the German text always prevails.
+See [VERSIONING.md](./VERSIONING.md#translations).

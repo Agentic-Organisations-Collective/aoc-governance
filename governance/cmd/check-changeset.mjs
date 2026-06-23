@@ -50,9 +50,12 @@ const BOOKKEEPING = new Set([
 ]);
 const isBookkeeping = (p) =>
   BOOKKEEPING.has(p.split('/').pop()) || p.includes('/archive/');
+// Translations (e.g. `*.en.md`) are non-binding copies, not governed source;
+// they ride along with the canonical document and need no changeset of their own.
+const isTranslation = (p) => /\.[a-z]{2}\.md$/.test(p);
 
 const content = staged.filter(
-  (p) => p.startsWith('packages/') && !isBookkeeping(p)
+  (p) => p.startsWith('packages/') && !isBookkeeping(p) && !isTranslation(p)
 );
 const changesets = staged.filter(
   (p) =>

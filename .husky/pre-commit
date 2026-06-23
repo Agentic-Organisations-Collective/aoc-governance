@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
 node governance/cmd/check-changeset.mjs
+node governance/cmd/check-translations.mjs

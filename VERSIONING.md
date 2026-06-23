@@ -20,17 +20,21 @@ archive of the superseded version.
 ## Author workflow
 
 1. Edit the document, e.g. `packages/statutes/statutes.md`.
-2. Create a changeset describing the change and the bump level:
+2. Update its translation(s) in the same change, e.g.
+   `packages/statutes/statutes.en.md` (see [Translations](#translations)).
+3. Create a changeset describing the change and the bump level:
 
    ```bash
    pnpm changeset
    ```
 
    Choose the package, pick `major` / `minor` / `patch`, and write a summary.
-3. Commit the document change **and** the changeset together.
+4. Commit the document change, the updated translation(s), **and** the changeset
+   together.
 
 A pre-commit hook refuses any commit that changes a governed document without a
-changeset, and the `Governance Check` workflow enforces the same rule on pull
+changeset, **or** that changes a canonical document without updating its
+translation, and the `Governance Check` workflow enforces the same rules on pull
 requests.
 
 ## Release (automated)
@@ -60,17 +64,46 @@ git push --follow-tags origin main
   non-binding annex).
 - `patch` — editorial fix (typo, formatting, broken reference).
 
+## Translations
+
+Each governed German document is the **legally binding** source. For members and
+interested persons who do not read German, every canonical document carries one
+or more **non-binding** translations:
+
+- The binding source is `packages/<pkg>/<name>.md` (German).
+- Each translation lives alongside it as `packages/<pkg>/<name>.<lang>.md`,
+  e.g. `packages/statutes/statutes.en.md`.
+- Every translation opens with a notice stating that only the German version is
+  legally binding and that the German text prevails in case of discrepancy, plus
+  a `translation-of:` marker comment pointing at the canonical file.
+
+Rules that keep translations trustworthy:
+
+- **Update with the original.** Whenever a canonical document changes, its
+  translation(s) must change in the same change set. This is enforced by
+  `governance/cmd/check-translations.mjs` (pre-commit and CI).
+- **No changeset of their own.** Translations are derivative copies, not governed
+  source. A translation-only fix (e.g. an English typo) does not require a
+  changeset and does not bump the package version.
+- **Snapshotted per version.** Translations live inside the package, so the
+  release archive automatically freezes the translation as it existed at each
+  version under `packages/<pkg>/archive/v<version>/<name>.<lang>.md`. Every
+  released version therefore keeps a citable copy of both the binding text and
+  its translation.
+
 ## Archive layout
 
 ```text
 packages/statutes/
-├── statutes.md            # current canonical text
+├── statutes.md            # current canonical (binding) text
+├── statutes.en.md         # current non-binding English translation
 ├── package.json           # current version
 ├── CHANGELOG.md           # generated history of changes
 ├── history.json           # append-only release ledger
 └── archive/
     └── v1.0.0/
-        ├── statutes.md     # frozen content of v1.0.0
+        ├── statutes.md     # frozen binding content of v1.0.0
+        ├── statutes.en.md  # frozen translation as of v1.0.0
         ├── package.json    # version 1.0.0
         ├── CHANGELOG.md    # changelog as of v1.0.0
         └── manifest.json   # cross-references (see below)

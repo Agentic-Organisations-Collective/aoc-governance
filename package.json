@@ -10,6 +10,7 @@
     "changeset": "changeset",
     "release": "node governance/cmd/release.mjs",
     "check:changeset": "node governance/cmd/check-changeset.mjs",
+    "check:translations": "node governance/cmd/check-translations.mjs",
     "prepare": "husky"
   },
   "devDependencies": {
