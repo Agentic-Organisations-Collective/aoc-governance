@@ -34,8 +34,8 @@ participation and their voting right.
 | Type of membership | Annual contribution |
 | --- | --- |
 | Individual members (natural persons) | 60 euros |
-| Small companies (up to 50 employees) | 120 euros |
-| Large companies (more than 50 employees) | 360 euros |
+| Small companies (up to 20 employees) | 120 euros |
+| Large companies (more than 20 employees) | 360 euros |
 | Research institutions, public corporations and non-profit organisations | 120 euros |
 
 (2) Classification is based on the information provided in the membership

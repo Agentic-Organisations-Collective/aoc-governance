@@ -26,8 +26,8 @@ wahrnimmt.
 | Mitgliedsart | Jahresbeitrag |
 | --- | --- |
 | Einzelmitglieder (natürliche Personen) | 60 Euro |
-| Kleine Unternehmen (bis 50 Mitarbeitende) | 120 Euro |
-| Große Unternehmen (über 50 Mitarbeitende) | 360 Euro |
+| Kleine Unternehmen (bis 20 Mitarbeitende) | 120 Euro |
+| Große Unternehmen (über 20 Mitarbeitende) | 360 Euro |
 | Forschungseinrichtungen, öffentliche Körperschaften und gemeinnützige Organisationen | 120 Euro |
 
 (2) Die Einstufung erfolgt auf Grundlage der Angaben im Mitgliedsantrag. Als
