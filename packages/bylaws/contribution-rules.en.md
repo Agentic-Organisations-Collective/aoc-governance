@@ -9,6 +9,8 @@
 > event of any discrepancy between the two versions, the German text prevails.
 > References to German statutes (e.g. `Abgabenordnung`) are retained because they
 > designate the applicable German law.
+>
+> **Adopted version.** Adopted by the founding assembly on 7 July 2026.
 
 This contribution schedule supplements the statutes of the Agentic Organisations
 Collective. It regulates the type, amount and due date of the membership

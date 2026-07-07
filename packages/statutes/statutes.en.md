@@ -8,6 +8,9 @@
 > of any discrepancy between the two versions, the German text prevails.
 > References to German statutes (e.g. `Abgabenordnung`, `BGB`, `EStG`) are
 > retained because they designate the applicable German law.
+>
+> **Adopted version.** Adopted by the founding assembly on 7 July 2026 (date of
+> establishment, § 59 (3) BGB).
 
 ## Preamble
 
@@ -307,8 +310,40 @@ upon their signing.
 
 ---
 
-**Day of establishment:** [insert date]
+**Day of establishment:** 7 July 2026
 
 *The signatures of the founding members are obtained by circulation.*
 
 *Signatures of the founding members:*
+
+Signature Jan-Henrik Hempel (Schafe vorm Fenster UG):
+
+\______________________________
+
+Signature Jan Held:
+
+\______________________________
+
+Signature Oliver Meimberg:
+
+\______________________________
+
+Signature Matthias Herbert (Obvious Works GmbH):
+
+\______________________________
+
+Signature Oliver Charlet:
+
+\______________________________
+
+Signature Andreas Mertens:
+
+\______________________________
+
+Signature Andreas Behrens:
+
+\______________________________
+
+Signature David Holetzeck (Table of Visions GmbH):
+
+\______________________________

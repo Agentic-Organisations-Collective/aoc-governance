@@ -1,5 +1,8 @@
 # Satzung des Agentic Organisations Collective
 
+> **Beschlossene Fassung.** Beschlossen von der Gründungsversammlung am
+> 7. Juli 2026 (Tag der Errichtung, § 59 Abs. 3 BGB).
+
 ## Präambel
 
 Das Agentic Organisations Collective verbindet Menschen, die Prozesse in
@@ -314,8 +317,40 @@ mit ihrer Unterzeichnung in Kraft.
 
 ---
 
-**Tag der Errichtung:** [Datum einsetzen]
+**Tag der Errichtung:** 7. Juli 2026
 
 _Die Unterschriften der Gründungsmitglieder werden im Umlauf eingeholt._
 
 _Unterschriften der Gründungsmitglieder:_
+
+Unterschrift Jan-Henrik Hempel (Schafe vorm Fenster UG):
+
+\______________________________
+
+Unterschrift Jan Held:
+
+\______________________________
+
+Unterschrift Oliver Meimberg:
+
+\______________________________
+
+Unterschrift Matthias Herbert (Obvious Works GmbH):
+
+\______________________________
+
+Unterschrift Oliver Charlet:
+
+\______________________________
+
+Unterschrift Andreas Mertens:
+
+\______________________________
+
+Unterschrift Andreas Behrens:
+
+\______________________________
+
+Unterschrift David Holetzeck (Table of Visions GmbH):
+
+\______________________________

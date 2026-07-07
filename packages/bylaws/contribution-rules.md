@@ -1,5 +1,8 @@
 # Beitragsordnung des Agentic Organisations Collective
 
+> **Beschlossene Fassung.** Beschlossen von der Gründungsversammlung am
+> 7. Juli 2026.
+
 Diese Beitragsordnung ergänzt die Satzung des Agentic Organisations Collective.
 Sie regelt Art, Höhe und Fälligkeit der Mitgliedsbeiträge auf Grundlage von § 6
 der Satzung. Über sie beschließt die Mitgliederversammlung; sie ist nicht
