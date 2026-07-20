@@ -21,19 +21,13 @@ Anspruch auf Aufnahme besteht nicht.
 
 ## § 2 Aufnahmevoraussetzungen
 
-(1) Voraussetzung der ordentlichen Mitgliedschaft ist nach § 4 Abs. 4 der Satzung
-ein fachlicher oder praktischer Bezug zum Tätigkeitsgebiet des Vereins sowie die
-Bereitschaft zu einem offenen, respektvollen und auf Verständigung und
-Zusammenarbeit ausgerichteten Miteinander.
-
-(2) Der Zugang steht jeder Person offen, die diese Voraussetzungen erfüllt. Die
-Mitgliedschaft darf nicht von der Zugehörigkeit zu einer bestimmten Organisation
-abhängig gemacht werden.
-
-(3) Die ordentliche Mitgliedschaft besteht als Einzel- oder
-Organisationsmitgliedschaft (§ 4 Abs. 2 der Satzung). Daneben ist die
-Fördermitgliedschaft nach § 4 Abs. 3 der Satzung möglich. Diese Ordnung gilt für
-beide Formen sinngemäß.
+Für die Aufnahmevoraussetzungen und die Formen der Mitgliedschaft gilt § 4 der
+Satzung. Danach setzt die ordentliche Mitgliedschaft einen fachlichen oder
+praktischen Bezug zum Tätigkeitsgebiet des Vereins sowie die Bereitschaft zu
+offener, respektvoller Zusammenarbeit voraus (§ 4 Abs. 4); sie besteht als
+Einzel- oder Organisationsmitgliedschaft (§ 4 Abs. 2), daneben ist die
+Fördermitgliedschaft möglich (§ 4 Abs. 3). Diese Ordnung gilt für beide Formen
+sinngemäß.
 
 ## § 3 Aufnahmeantrag
 
@@ -67,8 +61,8 @@ Der Vorstand behandelt einen eingegangenen Antrag in der Regel wie folgt:
 3. **Entscheidung.** Der Vorstand entscheidet über die Aufnahme (§ 5).
 4. **Dokumentation.** Die Entscheidung wird nachvollziehbar festgehalten; die
    Mitgliederdaten werden in das Mitgliederverzeichnis übernommen (§ 7).
-5. **Mitteilung.** Die Entscheidung wird der antragstellenden Person in Textform
-   mitgeteilt (§ 5 Abs. 3).
+5. **Mitteilung.** Die Entscheidung wird der antragstellenden Person mitgeteilt
+   (§ 5).
 6. **Beitrag.** Der Mitgliedsbeitrag richtet sich nach der Beitragsordnung.
 7. **Aufnahme in die Arbeits- und Kommunikationsräume.** Nach der Aufnahme wird
    das Mitglied in die für Mitglieder vorgesehenen Arbeits- und
@@ -76,13 +70,12 @@ Der Vorstand behandelt einen eingegangenen Antrag in der Regel wie folgt:
 
 ## § 5 Entscheidung und Mitteilung
 
-(1) Über die Aufnahme entscheidet der Vorstand mit einfacher Mehrheit (§ 9 Abs. 4
-der Satzung). Die Entscheidung soll in der Regel innerhalb von vier Wochen nach
-Eingang eines vollständigen Antrags getroffen werden.
+(1) Die Entscheidung trifft der Vorstand mit einfacher Mehrheit (§ 9 Abs. 4 der
+Satzung). Sie soll in der Regel innerhalb von vier Wochen nach Eingang eines
+vollständigen Antrags getroffen werden.
 
-(2) Ein Anspruch auf Aufnahme besteht nicht; eine Ablehnung bedarf keiner
-Begründung. Der Verein begegnet Antragstellenden auch im Fall einer Ablehnung
-wertschätzend.
+(2) Eine Ablehnung bedarf keiner Begründung (§ 4 Abs. 5 der Satzung). Der Verein
+begegnet Antragstellenden auch im Fall einer Ablehnung wertschätzend.
 
 (3) Die Entscheidung wird der antragstellenden Person in Textform mitgeteilt.
 

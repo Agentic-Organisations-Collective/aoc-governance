@@ -31,17 +31,12 @@ entitlement to admission.
 
 ## § 2 Admission Requirements
 
-(1) A prerequisite for ordinary membership is, under § 4 (4) of the statutes, a
-professional or practical connection to the association's field of activity, as
-well as the willingness to engage in open, respectful cooperation oriented toward
-mutual understanding.
-
-(2) Access is open to any person who meets these requirements. Membership may not
-be made dependent on affiliation with any particular organisation.
-
-(3) Ordinary membership exists as individual or organisational membership (§ 4
-(2) of the statutes). In addition, supporting membership under § 4 (3) of the
-statutes is possible. These rules apply to both forms accordingly.
+The admission requirements and the forms of membership are governed by § 4 of the
+statutes. Accordingly, ordinary membership requires a professional or practical
+connection to the association's field of activity as well as the willingness to
+engage in open, respectful cooperation (§ 4 (4)); it exists as individual or
+organisational membership (§ 4 (2)), and supporting membership is also possible
+(§ 4 (3)). These rules apply to both forms accordingly.
 
 ## § 3 Application
 
@@ -77,21 +72,19 @@ The board generally handles an incoming application as follows:
 3. **Decision.** The board decides on admission (§ 5).
 4. **Documentation.** The decision is recorded in a traceable manner; the member
    data is entered into the member registry (§ 7).
-5. **Notification.** The decision is communicated to the applicant in text form
-   (§ 5 (3)).
+5. **Notification.** The decision is communicated to the applicant (§ 5).
 6. **Contribution.** The membership fee is governed by the contribution schedule.
 7. **Admission to the working and communication spaces.** After admission, the
    member is added to the working and communication spaces intended for members.
 
 ## § 5 Decision and Notification
 
-(1) The board decides on admission by simple majority (§ 9 (4) of the statutes).
-The decision should generally be taken within four weeks of receipt of a complete
-application.
+(1) The decision is taken by the board by simple majority (§ 9 (4) of the
+statutes); it should generally be taken within four weeks of receipt of a
+complete application.
 
-(2) There is no entitlement to admission; a rejection does not require reasons.
-The association treats applicants with appreciation even in the event of a
-rejection.
+(2) A rejection does not require reasons (§ 4 (5) of the statutes). The
+association treats applicants with appreciation even in the event of a rejection.
 
 (3) The decision is communicated to the applicant in text form.
 
