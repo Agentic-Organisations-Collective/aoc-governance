@@ -7,6 +7,18 @@
       "initial-statutes"
     ],
     "summary": "Establish the initial adopted version of the statutes (Satzung).",
+    "supersededBy": "1.0.1",
+    "supersededByCommit": "343ab11b13742be8d2bd51a5b6bb4f79056d4f4f",
+    "supersededDate": "2026-07-27"
+  },
+  {
+    "version": "1.0.1",
+    "date": "2026-07-27",
+    "commit": "343ab11b13742be8d2bd51a5b6bb4f79056d4f4f",
+    "changesets": [
+      "founding-documents-adopted"
+    ],
+    "summary": "Gründungsdokumente finalisiert (beschlossen am 7. Juli 2026): Satzung und\nBeitragsordnung als beschlossene Fassung mit Beschlussdatum (Tag der Errichtung,\n§ 59 Abs. 3 BGB) gekennzeichnet; in der Satzung Unterschriftenfelder für die acht\nGründungsmitglieder ergänzt (Label „Unterschrift <Name>:\" mit Unterschriftslinie\naus Unterstrich-Zeichen). In der englischen Übersetzung gespiegelt. Kennzeichnung\nund Gestaltung der Signaturseite, keine Änderung am Regelungstext.",
     "supersededBy": null,
     "supersededByCommit": null,
     "supersededDate": null

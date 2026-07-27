@@ -1,0 +1,14 @@
+{
+  "package": "@aoc-governance/bylaws",
+  "version": "1.0.0",
+  "date": "2026-06-23",
+  "createdCommit": "ee8a4836d4c7d132079635e183036437e96053c0",
+  "changesets": [
+    "initial-bylaws"
+  ],
+  "summary": "Establish the initial adopted version of the contribution rules (Beitragsordnung).",
+  "supersededBy": "2.0.0",
+  "supersededByCommit": "343ab11b13742be8d2bd51a5b6bb4f79056d4f4f",
+  "supersededDate": "2026-07-27",
+  "sourceRef": "bylaws-v1.0.0"
+}

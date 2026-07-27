@@ -7,6 +7,20 @@
       "initial-bylaws"
     ],
     "summary": "Establish the initial adopted version of the contribution rules (Beitragsordnung).",
+    "supersededBy": "2.0.0",
+    "supersededByCommit": "343ab11b13742be8d2bd51a5b6bb4f79056d4f4f",
+    "supersededDate": "2026-07-27"
+  },
+  {
+    "version": "2.0.0",
+    "date": "2026-07-27",
+    "commit": "343ab11b13742be8d2bd51a5b6bb4f79056d4f4f",
+    "changesets": [
+      "aufnahmeordnung",
+      "beitragsordnung-grenze-20",
+      "founding-documents-adopted"
+    ],
+    "summary": "Aufnahmeordnung ergänzt: neues Verfahren zur Aufnahme neuer Mitglieder auf\nGrundlage von § 4 der Satzung (`member-admission.md` mit nicht-verbindlicher\nenglischer Übersetzung). Die Ordnung verweist für Aufnahmevoraussetzungen und\nMitgliedschaftsformen auf § 4 der Satzung, statt sie zu wiederholen, und regelt\ndas Eigene: die Angaben im Antrag, das Verfahren von Eingang bis Aufnahme in die\nArbeitsräume, die Vorstandsentscheidung mit Frist, den Beginn der Mitgliedschaft\nsowie Dokumentation und Datenschutz. Für die Beitragshöhe verweist sie auf die\nBeitragsordnung und begründet keine neuen materiellen Kriterien; die\nAufnahmeentscheidung bleibt beim Vorstand. Status: Entwurf, wird vom Vorstand\nbeschlossen.\nBeitragsordnung: Grenze zwischen kleinen und großen Unternehmen von 50 auf 20\nMitarbeitende gesenkt (§ 2 Abs. 1). Unternehmen mit 20 Mitarbeitenden haben\nbereits eine solide finanzielle Basis; da brauchen wir nicht zu geizig sein.\nAußerdem wird der Verein die Mittel für die Organisation brauchen.\nGründungsdokumente finalisiert (beschlossen am 7. Juli 2026): Satzung und\nBeitragsordnung als beschlossene Fassung mit Beschlussdatum (Tag der Errichtung,\n§ 59 Abs. 3 BGB) gekennzeichnet; in der Satzung Unterschriftenfelder für die acht\nGründungsmitglieder ergänzt (Label „Unterschrift <Name>:\" mit Unterschriftslinie\naus Unterstrich-Zeichen). In der englischen Übersetzung gespiegelt. Kennzeichnung\nund Gestaltung der Signaturseite, keine Änderung am Regelungstext.",
     "supersededBy": null,
     "supersededByCommit": null,
     "supersededDate": null
