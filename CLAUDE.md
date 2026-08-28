@@ -1,31 +1,31 @@
-# aoc-governance — Arbeitsanweisungen
+# aoc-governance — Operating Instructions
 
-## Aufgaben sind GitHub Issues
+## Tasks Are GitHub Issues
 
-Beschluss der Vorstandssitzung vom 2026-08-26: **To-dos entstehen als Issue in diesem
-Repo** — nicht als Markdown-Liste, nicht in einer externen To-do-App. Wer eine Aufgabe
-identifiziert, legt sie an, statt sie in eine Datei zu schreiben.
+Resolution of the 2026-08-26 board meeting: **to-dos are created as an issue in this
+repo** — not as a markdown list, not in an external to-do app. Whoever identifies a
+task creates it directly, instead of writing it into a file.
 
-Hierher gehören: Satzung, Ordnungen, Beschlüsse, öffentliche Protokolle — der Wortlaut
-der gesetzten Texte und ihre Releases. Verwaltung und Gründungsverfahren →
-`aoc-board`. Außenkommunikation über eine Änderung → `aoc-communications`.
+Belongs here: statutes, bylaws, resolutions, public minutes — the wording of the
+enacted texts and their releases. Administration and founding procedure →
+`aoc-board`. Outward communication about a change → `aoc-communications`.
 
-**Dieses Repo ist öffentlich.** Was nicht für die Öffentlichkeit bestimmt ist, gehört
-auch nicht in einen Issue-Text hier — keine Mitgliederdaten, keine Anschriften, keine
-interne Abwägung. Das gehört nach `aoc-board`.
+**This repo is public.** Whatever isn't meant for the public also doesn't belong in an
+issue text here — no member data, no addresses, no internal deliberation. That belongs
+in `aoc-board`.
 
-Ein Issue nennt Anlass, konkrete Aufgabe und Voraussetzungen. Owner wird zugewiesen, wer
-die Aufgabe übernommen hat — bei unklarer Übernahme lieber niemand als der Falsche.
-Aufgaben aus einer Sitzung tragen `sitzung:<YYYY-MM-DD>` und verweisen im Fußtext auf
-das Protokoll.
+An issue names the occasion, the concrete task, and the preconditions. The owner
+assigned is whoever took on the task — when unclear, better nobody than the wrong
+person. Tasks from a meeting carry `sitzung:<YYYY-MM-DD>` and reference the minutes in
+the footer.
 
-## Rechtsverbindlichkeit
+## Legal Bindingness
 
-Die deutschen Fassungen sind die einzigen rechtsverbindlichen Texte; englische
-Übersetzungen stehen unverbindlich daneben und werden je Version eingefroren. Jede
-Änderung an einem rechtlich relevanten Dokument läuft über Review und erzeugt ein
-getaggtes Release — siehe [VERSIONING.md](./VERSIONING.md).
+The German versions are the only legally binding texts; English translations sit
+alongside them without binding force and are frozen per version. Every change to a
+legally relevant document goes through review and produces a tagged release — see
+[VERSIONING.md](./VERSIONING.md).
 
 ---
 
-Org-weite Regeln: [`.github/CLAUDE.md`](https://github.com/Agentic-Organisations-Collective/.github/blob/main/CLAUDE.md)
+Org-wide rules: [`.github/CLAUDE.md`](https://github.com/Agentic-Organisations-Collective/.github/blob/main/CLAUDE.md)
