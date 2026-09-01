@@ -27,6 +27,11 @@ carries a **non-binding** English translation alongside it (e.g.
 sync with the originals and frozen per version; the German text always prevails.
 See [VERSIONING.md](./VERSIONING.md#translations).
 
+Beyond the governed texts, **everything else in this repository is English** —
+READMEs, versioning docs, review notes, issues, pull requests and commit messages —
+regardless of the language you speak with your AI agent. See
+[CONTRIBUTING.md](./CONTRIBUTING.md#language-this-repository-is-english).
+
 ## Tasks
 
 **To-dos are GitHub issues in this repository** — not markdown checklists, not an
